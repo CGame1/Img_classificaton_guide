@@ -1,0 +1,15 @@
+{
+"data_path": "shulz_bank/data/class_images",
+"save_path": "shulz_bank/runs/class_images",
+"img_type": ".png", 
+"kfold": 2,
+"seed": 20,
+"model": "saved_models/yolov8m-cls.pt",
+"batch": 32, 
+"epochs": 50, 
+"imgsz": 256,
+"device": 0,
+"lr0": 0.01,
+"patience": 5,
+"save_period": -1
+}
