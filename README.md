@@ -14,8 +14,6 @@ To deploy trained YOLO models, from [Hugging Face](https://huggingface.co/) for 
 For R users, a shiny app is also available [here]() to provide the option to locally format data, with a base workflow they can customize.
 
 ![Classification workflow](https://github.com/CGame1/Img_classificaton_guide/blob/main/docs/workflow.png?raw=true)
-
-Figure 1: Simplified and idealized diagram of an image classification scenario. Each box represents a key task and corresponds to a section of the paper to aid comprehension.  While presented largely linearly for clarity, real-world ML workflows are often iterative and non-linear and the need to revisit specific sections may vary depending on the scenario.
 ---
 
 
