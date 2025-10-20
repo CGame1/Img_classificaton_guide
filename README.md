@@ -3,15 +3,16 @@
 
 Welcome! This repo provides access to a Jupyter notebook that demonstrates how to implement cross-validation with YOLO for image classification in Python. 📷🌊🐙🤖
 
-The notebook is designed to be beginner-friendly, with the option to run it entirely online using [Google Colab](https://colab.research.google.com/github/CGame1/Img_classificaton_guide/blob/main/notebooks/CrossVal_with_Yolo_colab.ipynb) — no installation or GPU required.
+The notebook is designed to be beginner-friendly, with the option to run it entirely online using [Google Colab](https://colab.research.google.com/github/CGame1/Img_classificaton_guide/blob/main/notebooks/CrossVal_with_Yolo_colab.ipynb) — no installation or GPU required. However, if you're more comfortable with Python and Jupyter, you can also clone the repository and run it locally. 
 
-If you're more comfortable with Python and Jupyter, you can also clone the repository and run it locally. No data is required, as the code also downloads an open-source [dataset](https://doi.pangaea.de/10.1594/PANGAEA.949920), see [Meyer et al., 2023](https://www.sciencedirect.com/science/article/pii/S0967063722002333#da0010) for details.
+No data is required, as the code also downloads an open-source [dataset](https://huggingface.co/datasets/CGame1/schulz_bank_biotopes) from [Hugging Face](https://huggingface.co/). Note that this is a copy of the original [dataset](https://doi.pangaea.de/10.1594/PANGAEA.949920) (for faster access), see [Meyer et al., 2023](https://www.sciencedirect.com/science/article/pii/S0967063722002333#da0010) for details.
+
+The notebook also contains code to deploy trained YOLO models, from Hugging Face for example, on new data 
 
 This resource is a supplement to our paper: _[ADD Title]_ (see below).
 
-To deploy trained YOLO models, from [Hugging Face](https://huggingface.co/) for example, on new data, see code [here](). 
 
-For R users, a shiny app is also available [here]() to provide the option to locally format data, with a base workflow they can customize.
+*For R users*: A shiny app (and associated R code) is also available [here](https://github.com/Npiechaud/Benthic-Images-CV/tree/main/shiny_app) for select tasks.
 
 ![Classification workflow](https://github.com/CGame1/Img_classificaton_guide/blob/main/docs/workflow.png?raw=true)
 ---
