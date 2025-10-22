@@ -1,2 +1,7 @@
 images/
 Annotations.csv
+notebooks/schulz_bank
+notebooks/shulz_bank 
+notebooks/saved_models
+notebooks/runs
+notebooks/CrossVal_with_Yolo_colab_withdeploymentcode.ipynb

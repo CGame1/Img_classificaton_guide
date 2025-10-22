@@ -9,7 +9,8 @@ No data is required, as the code also downloads an open-source [dataset](https:/
 
 The notebook also contains code to deploy trained YOLO models, from Hugging Face for example, on new data 
 
-This resource is a supplement to our paper: _[ADD Title]_ (see below).
+This resource is a supplement to our paper: *Deep Blueprint: A Literature Review and Guide to Automated Image Classification for Ecologists*
+ (see below).
 
 
 *For R users*: A shiny app (and associated R code) is also available [here](https://github.com/Npiechaud/Benthic-Images-CV/tree/main/shiny_app) for select tasks.
@@ -21,7 +22,7 @@ This resource is a supplement to our paper: _[ADD Title]_ (see below).
 ## 📚 How to Cite This Work
 
 
-If you find this code useful, please consider citing us:
+If you find this code useful, please consider citing our **preprint**:
 
 > Your Name, Another Author, and Third Author. **“Title of the Paper.”** *Journal Name*, vol. XX, no. X, Year, pp. XX–XX. DOI: [https://doi.org/your-doi](https://doi.org/your-doi)
 
