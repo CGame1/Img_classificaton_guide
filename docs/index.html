@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Run Our Notebook in Google Colab</title>
+    <title>Image Classification Guide</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,7 +22,7 @@
 </head>
 <body>
 
-    <h1>Cross-Validation with YOLO</h1>   
+    <h1>Image Classification Guide</h1>   
 
 
     <footer style="margin-top: 40px; font-size: 0.9em; color: #555;">
@@ -33,19 +33,37 @@
 
    <hr>
 
-    <p>Welcome! This page provides access to a Jupyter notebook that demonstrates how to implement cross-validation with YOLO for image classification in Python. 📷🌊🐙🤖
-</p> 
-    <p>The notebook is designed to be beginner-friendly, with the option to run it entirely online using <a href="https://colab.research.google.com/github/CGame1/img_classification_guide/blob/main/CrossVal_with_Yolo_colab.ipynb">Google Colab</a> — no installation or GPU required.
-If you're more comfortable with Python and Jupyter, you can also download or clone the notebook from <a href="https://github.com/CGame1/img_classification_guide">Github</a> and run it locally. No data is required as the code also downloads an open-source  <a href="https://doi.pangaea.de/10.1594/PANGAEA.949920."> dataset</a>, see <a href="https://www.sciencedirect.com/science/article/pii/S0967063722002333#da0010">Meyer et al., 2023</a> for details. </p>
-
-
-   <p>This resource is a supplement to our paper: <a href="">ADD Title</a>. </p>
+    <p>Welcome! This page provides access to Jupyter notebooks that demonstrates how to (1) implement <a href="https://colab.research.google.com/github/CGame1/Img_classificaton_guide/blob/main/notebooks/CrossVal_with_Yolo_colab.ipynb">cross-validation with YOLO</a>
+         for image classification in Python and (2) <a href="https://colab.research.google.com/github/CGame1/Img_classificaton_guide/blob/main/notebooks/Yolo_classifier_deployment_colab.ipynb
+">deploy a trained YOLO model</a>, from <a href="https://huggingface.co/">Hugging Face</a> for example, on new images 📷🌊🐙🤖
 </p> 
  
 
 
+ <p>These are designed to be beginner-friendly, with the option to run them entirely online using Google Colab 
+    — no installation or GPU required. However, if you're more comfortable with Python and Jupyter, you can also clone the <a href="https://github.com/CGame1/Img_classificaton_guide">repository</a> and run it locally. 
+</p>
+
+
+
+<p>  <strong>No data is required</strong>, as the code also downloads an open-source <a href="https://huggingface.co/datasets/CGame1/schulz_bank_biotopes">dataset</a>
+      from Hugging Face. 
+      Note that this is a copy of the original <a href="https://doi.pangaea.de/10.1594/PANGAEA.949920">dataset</a> (for faster access), 
+      see <a href="https://www.sciencedirect.com/science/article/pii/S0967063722002333#da0010">Meyer et al., 2023</a> for details.
+</p>
+
+
+<p>This resource is a supplement to our paper: <em>Deep Blueprint: A Literature Review and Guide to Automated Image Classification for Ecologists</em>
+ (see below).
+</p>
+
+<p><strong>For R users</strong>: A shiny app (and associated R code) is also available <a href="https://github.com/Npiechaud/Benthic-Images-CV/tree/main/shiny_app">here</a> 
+for select tasks.
+</p>
+
+
 <figure style="text-align: center; margin: 30px 0;">
-    <img src="https://github.com/CGame1/Mutli-modal-learning-poster/blob/main/workflow.png?raw=true" 
+    <img src="https://github.com/CGame1/Img_classificaton_guide/blob/main/docs/workflow.png?raw=true"
          alt="Classification workflow" 
          style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
     <figcaption style="margin-top: 10px; font-size: 0.9em; color: #555;">
