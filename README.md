@@ -12,7 +12,7 @@ No data is required, as the code also downloads an open-source [dataset](https:/
 This resource is a supplement to our paper: *Deep Blueprint: A Literature Review and Guide to Automated Image Classification for Ecologists*
  (see below).
 
-*For R users*: A shiny app (and associated R code) is also available [here](https://github.com/Npiechaud/Benthic-Images-CV/tree/main/shiny_app) for select tasks.
+*For R users*: A shiny app (and associated R code) is also available [here](https://github.com/Npiechaud/Benthic-Images-CV/tree/main/shiny_app) for preparing the YOLO training set.
 
 ![Classification workflow](https://github.com/CGame1/Img_classificaton_guide/blob/main/docs/workflow.png?raw=true)
 *Figure 1: Simplified and idealized diagram of an ML scenario. Each box represents a key task and corresponds to a section of this paper to aid comprehension.  While presented largely linearly for clarity, real-world ML workflows are often iterative and non-linear and the need to revisit specific sections may vary depending on the scenario.*
