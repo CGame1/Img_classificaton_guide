@@ -24,7 +24,7 @@ This resource is a supplement to our paper: *Deep Blueprint: A Literature Review
 
 If you use this code, please cite our **preprint**:
 
-> Game, C.A., Piechaud, N. and Howell, K.L. (2025)  **“Deep Blueprint: A Literature Review and Guide to Automated Image Classification for Ecologists,” **  *bioRxiv*, p. 2025.11.03.686223. Available at:  [https://doi.org/10.1101/2025.11.03.686223](https://doi.org/10.1101/2025.11.03.686223). 
+> Game, C.A., Piechaud, N. and Howell, K.L. (2025)  **“Deep Blueprint: A Literature Review and Guide to Automated Image Classification for Ecologists”**,  *bioRxiv*, p. 2025.11.03.686223. Available at:  [https://doi.org/10.1101/2025.11.03.686223](https://doi.org/10.1101/2025.11.03.686223). 
 
 Or use the following BibTeX entry:
 
