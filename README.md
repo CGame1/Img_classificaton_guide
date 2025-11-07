@@ -22,9 +22,9 @@ This resource is a supplement to our paper: *Deep Blueprint: A Literature Review
 ## 📚 How to Cite This Work
 
 
-If you find this code useful, please consider citing our **preprint**:
+If you use this code, please cite our **preprint**:
 
-> Your Name, Another Author, and Third Author. **“Title of the Paper.”** *Journal Name*, vol. XX, no. X, Year, pp. XX–XX. DOI: [https://doi.org/your-doi](https://doi.org/your-doi)
+> Game, C.A., Piechaud, N. and Howell, K.L. (2025)  **“Deep Blueprint: A Literature Review and Guide to Automated Image Classification for Ecologists,” **  *bioRxiv*, p. 2025.11.03.686223. Available at:  [https://doi.org/10.1101/2025.11.03.686223](https://doi.org/10.1101/2025.11.03.686223). 
 
 Or use the following BibTeX entry:
 
