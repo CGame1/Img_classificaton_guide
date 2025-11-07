@@ -29,14 +29,17 @@ If you find this code useful, please consider citing our **preprint**:
 Or use the following BibTeX entry:
 
 ```bibtex
-@article{your2025paper,
-  title     = {Title of the Paper},
-  author    = {Your Name and Another Author and Third Author},
-  journal   = {Journal Name},
-  volume    = {XX},
-  number    = {X},
-  pages     = {XX--XX},
-  year      = {2025},
-  doi       = {10.xxxx/your-doi}
+
+@article {Game2025.11.03.686223,
+	author = {Game, Chloe A. and Piechaud, Nils and Howell, Kerry L.},
+	title = {Deep Blueprint: A Literature Review and Guide to Automated Image Classification for Ecologists},
+	elocation-id = {2025.11.03.686223},
+	year = {2025},
+	doi = {10.1101/2025.11.03.686223},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2025/11/04/2025.11.03.686223},
+	eprint = {https://www.biorxiv.org/content/early/2025/11/04/2025.11.03.686223.full.pdf},
+	journal = {bioRxiv}
 }
+
 
