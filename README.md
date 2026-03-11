@@ -1,5 +1,5 @@
 # Cross-Validation with YOLO
-
+ 
 
 Welcome! This repo provides access to Jupyter notebooks that demonstrate how to (1) implement [cross-validation with YOLO]("https://colab.research.google.com/github/CGame1/Img_classificaton_guide/blob/main/notebooks/CrossVal_with_Yolo.ipynb") for image classification in Python and (2) [deploy a trained YOLO model]("https://colab.research.google.com/github/CGame1/Img_classificaton_guide/blob/main/notebooks/Yolo_classifier_deployment_colab.ipynb"), from [Hugging Face]("https://huggingface.co/") for example, on new images 📷🌊🐙🤖
 
