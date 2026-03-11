@@ -28,15 +28,15 @@ library(jsonlite) # for interacting with JSON files
 # UPDATE THE FOLLOWING:
 
 # Set path to folder where the script is
-project <- "2025007011_substrate_classes"
-project_root <- "E:/2025007011"
+project <- "projectName"
+project_root <- "C:/DATA"
 wd <- paste0( project_root, "/",project )
 
 # Create path to folder that contains the images. If this contains zipped folder images as in tutorial, these will be unzipped.
 imagesDir <- paste0(wd, "/images")
 
 # Create path to the folder where your Biigle reports are
-path_to_labelfile <- paste0(wd , "/bottom_labels.csv") # this is the path to your labels file
+path_to_labelfile <- paste0(wd , "/labels.csv") # this is the path to your labels file
  
 # note that the labels file must contain: 
 # - filenames: the raw filename with their exttension. no path included
@@ -51,7 +51,7 @@ setwd(wd)
 sortedImagesDir <- paste0(wd, "/class_images")
  
 # Create path to folder where your train/test sorted images will be stored
-YoloDir <- paste0(wd , "/YOLO_dataset 3" ) 
+YoloDir <- paste0(wd , "/YOLO_dataset" ) 
  
 
 # set the ratios of the train/test/val splits
@@ -447,4 +447,5 @@ server <- function(input, output) {
 
 shinyApp(ui, server)
   
+
   
