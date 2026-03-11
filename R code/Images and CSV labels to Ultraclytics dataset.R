@@ -51,7 +51,7 @@ setwd(wd)
 sortedImagesDir <- paste0(wd, "/class_images")
  
 # Create path to folder where your train/test sorted images will be stored
-v8Dir <- paste0(wd , "/V8_dataset" )
+YoloDir <- paste0(wd , "/YOLO_dataset 3" ) 
  
 
 # set the ratios of the train/test/val splits
@@ -243,9 +243,8 @@ for (i in seq(labelsFolderPaths)) {
 } # end of i loop, next label
   
   }else{
-    
     print_color(color = "br_red", text = paste0("'"," labels ", "' folders already exists in ",sortedImagesDir," \n"))
-    stop("Sorted images folder already exists! If you made it, you can continue with the next step \n")
+    warning("Sorted images folder already exists! If you made it, you can continue with the next step \n")
     }
   
 
@@ -255,13 +254,13 @@ for (i in seq(labelsFolderPaths)) {
 
 # 3.) Make a dataset folder for YOLO V8  --------------------------------------------------------------------------------
 # Make a dataset folder
-if(!dir.exists(v8Dir) ){
-  dir.create(v8Dir)  
-  print_color(color = "bg_violet", text = paste0("Making V8 dataset folder at: '",v8Dir,"' \n"))
+if(!dir.exists(YoloDir) ){
+  dir.create(YoloDir)  
+  print_color(color = "bg_violet", text = paste0("Making V8 dataset folder at: '",YoloDir,"' \n"))
   
   # Export the labels as a classes.txt file
   allLabelNames %>% select(label_name) %>% 
-    write_csv(file = paste0(v8Dir,"/classes.txt"),col_names = FALSE)
+    write_csv(file = paste0(YoloDir,"/classes.txt"),col_names = FALSE)
   
   
   # List of labels
@@ -274,7 +273,7 @@ if(!dir.exists(v8Dir) ){
   labels %<>% str_subset(pattern = "yolo",negate = T)
   
   # Make train and test folders
-  train <- paste0( v8Dir , "/train" )
+  train <- paste0( YoloDir , "/train" )
   dir.create(train)
   # Make directory for each labels 
   for (label in labels) {
@@ -285,7 +284,7 @@ if(!dir.exists(v8Dir) ){
 
   
   # Same for validation set
-  val <- paste0( v8Dir , "/val" ) 
+  val <- paste0( YoloDir , "/val" ) 
   dir.create(val)
   for (label in labels) {
     dir.create(paste0(val,"/",label))
@@ -293,7 +292,7 @@ if(!dir.exists(v8Dir) ){
   
   # Same for test set
   if(TEST_VAL_SPLIT != 1){
-    test <- paste0( v8Dir , "/test" ) 
+    test <- paste0( YoloDir , "/test" ) 
     dir.create(test)
     for (label in labels) {
       dir.create(paste0(test,"/",label))
@@ -379,7 +378,7 @@ if(!dir.exists(v8Dir) ){
   
   imagesMeta %>% write_csv(paste0(sortedImagesDir,"/Image_metadata.csv"))
   # also export in the V8 dataset for reference
-  imagesMeta %>% write_csv(paste0(v8Dir,"/Image_metadata.csv"))
+  imagesMeta %>% write_csv(paste0(YoloDir,"/Image_metadata.csv"))
   
 }else{  
   
