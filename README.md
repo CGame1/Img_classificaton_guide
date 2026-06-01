@@ -22,15 +22,15 @@ This resource is a supplement to our paper: *Deep Blueprint: A Literature Review
 ## 📚 How to Cite This Work
 
 
-If you use this code, please cite our **preprint**:
+If you use this code, please cite our **paper**:
 
-> Game, C.A., Piechaud, N. and Howell, K.L. (2025)  **“Deep Blueprint: A Literature Review and Guide to Automated Image Classification for Ecologists”**,  *bioRxiv*, p. 2025.11.03.686223. Available at:  [https://doi.org/10.1101/2025.11.03.686223](https://doi.org/10.1101/2025.11.03.686223). 
+<!-- > Game, C.A., Piechaud, N. and Howell, K.L. (2025)  **“Deep Blueprint: A Literature Review and Guide to Automated Image Classification for Ecologists”**,  *bioRxiv*, p. 2025.11.03.686223. Available at:  [https://doi.org/10.1101/2025.11.03.686223](https://doi.org/10.1101/2025.11.03.686223).  -->
+
+> Game, C. A., Piechaud, N., & Howell, K. L. (2026). **"Deep blueprint: A literature review and guide to automated image classification for ecologists"** Journal of Animal Ecology, 00, 1–28. Available at:  [https://doi.org/10.1111/1365-2656.70271](https://doi.org/10.1111/1365-2656.70271)
 
 Or use the following BibTeX entry:
 
-```bibtex
-
-@article {Game2025.11.03.686223,
+<!-- @article {Game2025.11.03.686223,
 	author = {Game, Chloe A. and Piechaud, Nils and Howell, Kerry L.},
 	title = {Deep Blueprint: A Literature Review and Guide to Automated Image Classification for Ecologists},
 	elocation-id = {2025.11.03.686223},
@@ -40,6 +40,18 @@ Or use the following BibTeX entry:
 	URL = {https://www.biorxiv.org/content/early/2025/11/04/2025.11.03.686223},
 	eprint = {https://www.biorxiv.org/content/early/2025/11/04/2025.11.03.686223.full.pdf},
 	journal = {bioRxiv}
+} -->
+
+```bibtex
+@article{Game2026,
+author = {Game, Chloe A. and Piechaud, Nils and Howell, Kerry L.},
+title = {Deep blueprint: A literature review and guide to automated image classification for ecologists},
+journal = {Journal of Animal Ecology},
+volume = {00},
+number = {n/a},
+pages = {1-28},
+keywords = {benthic imagery, biotope classification, convolutional neural networks, deep learning, deep-sea ecology, image classification, machine learning, tutorial},
+doi = {https://doi.org/10.1111/1365-2656.70271},
+url = {https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2656.70271},
+eprint = {https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2656.70271}
 }
-
-
